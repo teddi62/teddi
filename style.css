@@ -1,0 +1,322 @@
+nav img{
+	height:auto;
+	width:150px;
+}
+body{
+	margin:0;
+	background-color:white;
+	min-height:100vh;
+}
+Nav{
+	height:auto;
+background-color:white;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Gamja Flower', cursive;
+
+	z-index:1;
+}
+nav a{
+	color:rgb(253,75,109);
+	text-decoration:none;
+	margin: auto 0;
+	font-size:3vw;
+}
+nav a:visited{
+	color:rgb(253,75,109);
+}
+nav a:hover{
+	color:rgb(179,8,105);
+
+}
+
+.top{
+	display: flex;
+justify-content: space-evenly;
+margin-top:100px;
+background-color:rgb(254,220,50);
+
+}
+.about h2{
+	align-items:center;
+	margin:auto 0;
+	text-align:center;
+	color:white;
+	font-family: 'Gamja Flower', cursive;
+	font-size:35px;
+	opacity:0%;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+}
+.about img{
+	margin-top:75px;
+	margin-bottom:50px;
+}
+.about{
+	position:relative;
+}
+.about:hover h2{
+	opacity:100%;
+	transition-opacity:1s;
+	
+}
+
+.con:hover h2{
+	opacity:100%;
+	transition-opacity:1s;	
+}
+.con h2{
+	position:relative;
+	top:100px;
+	right:300px;
+	color:white;
+	font-family: 'Gamja Flower', cursive;
+	font-size:35px;
+	opacity:0%;
+	top:50%;
+	left:35%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+}
+.con img{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.con{
+	position:relative;
+}
+.comm:hover h2{
+	opacity:100%;
+	transition-opacity:1s;	
+}
+.comm img{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.self img{
+	height:300px;
+	width:auto;
+}
+.comm h2{
+	position:relative;
+	top:920px;
+	right:300px;
+	color:white;
+	font-family: 'Gamja Flower', cursive;
+	font-size:35px;
+	opacity:0%;
+	top:40%;
+	left:20%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+}
+.comm{
+	position:relative;
+}
+.shop:hover h2{
+	opacity:100%;
+	transition-opacity:1s;	
+}
+.shop img{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.shop h2{
+	position:absolute;
+	top:920px;
+	left:230px;
+	color:white;
+	font-family: 'Gamja Flower', cursive;
+	font-size:35px;
+	opacity:0%;
+	top:40%;
+	left:50%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+}
+.shop{
+	position:relative;
+}
+.bottom{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top:100px;
+	margin-bottom:100px;
+	background-color:rgb(254,220,50);
+}
+.top img{
+	
+	height:auto;
+	width:400px;
+	border-radius: 20px;
+	-webkit-filter:brightness(100%);
+}
+br{
+	line-height:300%;
+}
+.top img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.bottom img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.bottom img{
+	width:auto;
+	height:450px;
+	border-radius: 20px;
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+footer p{
+	color:rgb(253,75,109);
+	text-align:center;
+}
+footer img{
+	height:100px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+footer{
+
+	height:auto;
+	background-color:white;
+	font-size:25px;;
+	font-family: 'Gamja Flower', cursive;
+}
+footer a,a:visited{
+	color:rgb(253,75,109);
+	text-decoration:none;
+
+}
+.links{
+
+	display:flex;
+	justify-content:space-evenly;
+}
+.ext{
+
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+
+.slideshow{
+	max-width:100%;
+	position:relative;
+	text-align:center;
+
+}
+.mySlides{
+	display:none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(253,75,109);
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prev{
+	left:0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+	
+	background-color:rgb(254,220,50);
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.slideshow img{
+	width:auto;
+	height:500px;
+	
+}
+.self{
+	display: flex;
+	justify-content: space-evenly;
+	background-color:rgb(254,220,50);
+}
+.art{
+	display:flex;
+	justify-content:space-evenly;
+	background-color:rgb(254,220,50);
+}
+.art img{
+	height:300px;
+}
+.self p{
+	color:rgb(253,75,109);
+	font-size:25px;
+	font-family:'Gaegu', cursive;
+}
+.art p{
+	color:rgb(253,75,109);
+	font-size:25px;
+	font-family:'Gaegu', cursive;
+}
+.form{
+	font-family:'Gamja Flower', cursive;
+	color:rgb(253,75,109);
+	font-size:25px;
+	text-align: center;
+}
+input{
+	font-family:'Gaegu', cursive;
+	color:rgb(179,8,105);
+	font-size:15px;
+}
+textarea{
+	font-family:'Gaegu', cursive;
+	color:rgb(179,8,105);
+	font-size:15px;
+}
+.submit{
+
+	color:rgb(253,75,109);
+	font-size:25px;
+	font-family:'Gamja Flower', cursive;
+}
+.email{
+	text-align:center;
+	color:rgb(253,75,109);
+	font-size:25px;
+	font-family:'Gaegu', cursive;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+  <title>Inked</title>
+  
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Gamja+Flower&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/art/logo.png">
+	</head>
+
+	<body>
+	<script>
+	
+	document.body.className += ' fade-out';
+	window.onload = function () { document.body.className = ""; }
+	
+	</script>
+  <nav id="navbar">
+  <a href="index.html"><img src="images/art/logo.png" alt="Logo with colorful stingray"></a>
+	
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+	<a href="art.html">Portfolio</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html#contact">Contact</a>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+	
+	var navbar = document.getElementById("navbar");
+	
+	var sticky = navbar.offsetTop;
+	
+	function myFunction(){
+	if (window.pageYOffset >= sticky){ 
+	navbar.classList.add("sticky")
+	} else {
+	navbar.classList.remove("sticky");
+	}
+	}
+	</script>
+  </nav>
+
+  <div class="slideshow">
+	<div class="mySlides fade">
+	<a href="art.html">
+	<img src="images/art/home/resizearch.png" alt="Drawing of dog named Archie">
+	</a>
+	</div>
+	<div class="mySlides fade">
+	<a href="art.html"><img src="images/art/home/orange.png" alt="Drawing of orange cat sitting on ground"></a>
+	</div>
+	<div class="mySlides fade">
+	<a href="art.html"><img src="images/art/home/fox.png" alt="Drawing of fox with orange background"></a>
+	</div>
+	
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+  <div class="top">
+  <div class="about">
+  <a href="about.html"><img src="images/art/aboutme/laken.jpg" alt="Picture of Laken smiling">
+  <!-- these h2 need to be centered on images unconditionally -->
+  <h2>About Me</h2></a>
+  </div>
+  <div class="con">
+  <a href="art.html"><img src="images/art/home/karate.png" alt="Drawing of cat eating noodles"><h2>Portfolio</h2></a>
+  </div>
+  </div>
+  <div class="bottom">
+  <div class="shop">
+  <a href="art.html"><img src="images/art/home/pink2.png" alt="Drawing of pink girl with cherry blossom trees"><h2>Shop</h2></a>
+   </div>
+   <div class="comm">
+   <a href="about.html#contact"><img src="images/art/home/pencil.png" alt="Pencil drawing of girl leaning"><h2>Commission</h2></a>
+   </div>
+   </div>
+ 
+   <footer>
+   <div class="links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+	<a href="art.html">Portfolio</a>
+    <a href="shop.html">Shop</a>
+   <a href="about.html#contact">Contact</a>
+	</div>
+	<div class="ext">
+	<!-- logos are not same size -->
+	<a href="https://mobile.twitter.com/inkedrays?lang=en" target="_blank"><img src="images/icon/twitter.png" alt="Twitter logo"></a>
+	<a href="https://www.instagram.com/inkedrays/" target="_blank"><img src="images/icon/gr.png" alt="Instagram logo"></a>
+	<a href="https://www.youtube.com/channel/UCtbELjsA80DuGTOMNNhxoig/about" target="_blank"><img src="images/icon/youtube.png" alt="YouTube logo"</a>
+	</div>
+	 <p>&copy;2021 Inked. All Rights Reserved. Site Design by Teddi Heberle.</p>
+   </footer>
+</body>
+</html>

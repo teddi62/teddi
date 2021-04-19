@@ -1,0 +1,481 @@
+footer p{
+	color:rgb(253,75,109);
+	text-align:center;
+	
+}
+
+.links{
+
+	display:flex;
+	justify-content:space-evenly;
+}
+.ext{
+
+	display:flex;
+	justify-content:space-evenly;
+}
+
+footer img{
+	height:10vw;
+	margin-top:5vh;
+	margin-bottom:5vh;
+}
+footer{
+
+	height:auto;
+	background-color:white;
+	font-size:2.5vw;
+	font-family: 'Gamja Flower', cursive;
+}
+footer a,a:visited{
+	color:rgb(253,75,109);
+	text-decoration:none;
+
+}
+nav img{
+	height:15vh;
+	width:auto;
+}
+body{
+	margin:0;
+	background-color:white;
+	min-height:100vh;
+	
+}
+Nav{
+	height:auto;
+	background-color:white;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Gamja Flower', cursive;
+
+	z-index:1;
+}
+nav a{
+	color:rgb(253,75,109);
+	text-decoration:none;
+	margin: auto 0;
+	font-size:3vw;
+}
+nav a:visited{
+	color:rgb(253,75,109);
+}
+nav a:hover{
+	color:rgb(179,8,105);
+
+}
+.first{
+	padding-top:20px;
+	padding-bottom:20px;
+	display:flex;
+	justify-content:space-evenly;
+	background-color:rgb(254,220,50);
+}
+.first img{
+	width:200px;
+	height:auto;
+}
+.second{
+	padding-top:20px;
+	padding-bottom:20px;
+	display:flex;
+	justify-content:space-evenly;
+	background-color:rgb(254,220,50);
+}
+.second img{
+	width:200px;
+	height:auto;
+}
+.third{
+	padding-top:20px;
+	padding-bottom:20px;
+	display:flex;
+	justify-content:space-evenly;
+	background-color:rgb(254,220,50);
+}
+.third img{
+	width:200px;
+	height:auto;
+}
+
+.fourth{
+	padding-top:20px;
+	padding-bottom:20px;
+	display:flex;
+	justify-content:space-evenly;
+	background-color:rgb(254,220,50);
+}
+.fourth img{
+	width:200px;
+	height:auto;
+}
+.last{
+	padding-top:20px;
+	padding-bottom:20px;
+	display:flex;
+	justify-content:space-evenly;
+	background-color:rgb(254,220,50);
+}
+.last img{
+	width:200px;
+	height:auto;
+}
+.bluem{
+	width:90%;
+	display:none;
+	position:absolute;
+	z-index:1;
+	
+	
+}
+button,
+button img{
+	border-radius:20px;
+	background-color:white;
+	border-color:white;
+}
+.bluecont{
+	background-color:white;
+	width:100%;
+	border:8px solid rgb(253,75,109);
+	border-radius:20px;
+	color:rgb(253,75,109);
+	text-align:center;
+	font-family:'Gaegu', cursive;
+}
+#bluemod{
+	position:fixed;
+	left:50;
+	top:50;
+
+}
+.bluecont img{
+	border-radius:20px;
+	text-align:center;
+	height:500px;
+	width:auto;
+	padding:10px;
+}
+.close{
+	color:rgb(253,75,109);
+	float:right;
+	font-size:25px;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.close:hover,
+.close:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+br{
+	line-height:400%;
+}
+
+.archm{
+	width:90%;
+	display:none;
+	position:absolute;
+	z-index:1;
+	
+	
+}
+.archcont{
+	background-color:white;
+	width:100%;
+	border:8px solid rgb(253,75,109);
+	border-radius:20px;
+	color:rgb(253,75,109);
+	text-align:center;
+	font-family:'Gaegu', cursive;
+}
+.archcont img{
+	border-radius:20px;
+	text-align:center;
+	height:500px;
+	width:auto;
+	padding:10px;
+}
+#archmod{
+	position:fixed;
+	left:50;
+	top:50;
+}
+.aclose{
+	color:rgb(253,75,109);
+	float:right;
+	font-size:25px;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.aclose:hover,
+.aclose:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+.foxm{
+	width:90%;
+	display:none;
+	position:absolute;
+	z-index:1;
+	
+	
+}
+.foxcont{
+	background-color:white;
+	width:100%;
+	border:8px solid rgb(253,75,109);
+	border-radius:20px;
+	color:rgb(253,75,109);
+	text-align:center;
+	font-family:'Gaegu', cursive;
+}
+.foxcont img{
+	border-radius:20px;
+	text-align:center;
+	height:500px;
+	width:auto;
+	padding:10px;
+}
+#foxmod{
+	position:fixed;
+	left:50;
+	top:50;
+}
+.fclose{
+	color:rgb(253,75,109);
+	float:right;
+	font-size:25px;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.fclose:hover,
+.fclose:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+.pinkm{
+	width:90%;
+	display:none;
+	position:absolute;
+	z-index:1;
+}
+.pinkcont{
+	
+	background-color:white;
+	width:100%;
+	border:8px solid rgb(253,75,109);
+	border-radius:20px;
+	color:rgb(253,75,109);
+	text-align:center;
+	font-family:'Gaegu', cursive;
+}
+#pinkmod{
+	position:relative;
+	left:50;
+	top:50;
+}
+.pinkcont img{
+	border-radius:20px;
+	text-align:center;
+	height:500px;
+	width:auto;
+	padding:10px;
+}
+
+.pclose{
+	color:rgb(253,75,109);
+	float:right;
+	font-size:25px;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.pclose:hover,
+.pclose:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+.purplem{
+	width:90%;
+	display:none;
+	position:absolute;
+	z-index:1;
+	
+	
+}
+.purplecont{
+	background-color:white;
+	width:100%;
+	border:8px solid rgb(253,75,109);
+	border-radius:20px;
+	color:rgb(253,75,109);
+	text-align:center;
+	font-family:'Gaegu', cursive;
+}
+.purplecont img{
+	border-radius:20px;
+	text-align:center;
+	height:500px;
+	width:auto;
+	padding:10px;
+}
+#purplemod{
+	position:fixed;
+	left:50;
+	top:50;
+}
+.prclose{
+	color:rgb(253,75,109);
+	float:right;
+	font-size:25px;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.prclose:hover,
+.prclose:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+.pim{
+	width:90%;
+	display:none;
+	position:absolute;
+	z-index:1;
+	
+	
+}
+#pimod{
+	position:fixed;
+	left:50;
+	top:50;
+}
+.picont{
+	background-color:white;
+	width:100%;
+	border:8px solid rgb(253,75,109);
+	border-radius:20px;
+	color:rgb(253,75,109);
+	text-align:center;
+	font-family:'Gaegu', cursive;
+}
+.picont img{
+	border-radius:20px;
+	text-align:center;
+	height:500px;
+	width:auto;
+	padding:10px;
+}
+
+.piclose{
+	color:rgb(253,75,109);
+	float:right;
+	font-size:25px;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.piclose:hover,
+.piclose:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fuzzm{
+	width:90%;
+	display:none;
+	position:absolute;
+	z-index:1;
+	
+	
+}
+.fuzzcont{
+	background-color:white;
+	width:100%;
+	border:8px solid rgb(253,75,109);
+	border-radius:20px;
+	color:rgb(253,75,109);
+	text-align:center;
+	font-family:'Gaegu', cursive;
+}
+.fuzzcont img{
+	border-radius:20px;
+	text-align:center;
+	height:500px;
+	width:auto;
+	padding:10px;
+}
+
+.fzclose{
+	color:rgb(253,75,109);
+	float:right;
+	font-size:25px;
+	font-weight:bold;
+	padding-right:5px;
+}
+#fuzzmod{
+	position:fixed;
+	left:50;
+	top:50;
+}
+.fzclose:hover,
+.fzclose:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*
+.name3{
+	width:90%;
+	display:none;
+	position:fixed;
+	z-index:1;
+}
+
+.name4cont{
+	background-color:white;
+	width:100%;
+	border:8px solid rgb(253,75,109);
+	border-radius:20px;
+	color:rgb(253,75,109);
+	text-align:center;
+	font-family:'Gaegu', cursive;
+}
+.name4cont img{
+	border-radius:20px;
+	text-align:center;
+	height:500px;
+	width:auto;
+	padding:10px;
+}
+#name2mod{
+	position:fixed;
+	left:50;
+	top:50;
+}
+.name5close{
+	color:rgb(253,75,109);
+	float:right;
+	font-size:25px;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.name5close:hover,
+.name5close:focus {
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+*/

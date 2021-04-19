@@ -1,0 +1,114 @@
+footer p{
+	color:rgb(253,75,109);
+	text-align:center;
+	
+}
+
+.links{
+
+	display:flex;
+	justify-content:space-evenly;
+}
+.ext{
+
+	display:flex;
+	justify-content:space-evenly;
+}
+
+footer img{
+	height:10vw;
+	margin-top:5vh;
+	margin-bottom:5vh;
+}
+footer{
+
+	height:auto;
+	background-color:white;
+	font-size:2.5vw;
+	font-family: 'Gamja Flower', cursive;
+}
+footer a,a:visited{
+	color:rgb(253,75,109);
+	text-decoration:none;
+
+}
+nav img{
+	height:15vh;
+	width:auto;
+}
+body{
+	margin:0;
+	background-color:white;
+	min-height:100vh;
+	text-align: center;
+	
+}
+Nav{
+	height:auto;
+	background-color:white;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Gamja Flower', cursive;
+
+	z-index:1;
+}
+nav a{
+	color:rgb(253,75,109);
+	text-decoration:none;
+	margin: auto 0;
+	font-size:3vw;
+}
+nav a:visited{
+	color:rgb(253,75,109);
+}
+nav a:hover{
+	color:rgb(179,8,105);
+
+}
+
+.print{
+	width:300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+
+}
+.print form{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+.bt{
+	height:500px;
+	width:auto;
+}
+.stick{
+
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+.sticker{
+	width:auto;
+	height:500px;
+}
+.stick form{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+
+.button{
+	display:block;
+	margin: 0 auto;
+}
+.button form{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
